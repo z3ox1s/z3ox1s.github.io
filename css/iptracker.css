@@ -1,0 +1,66 @@
+body {
+    background-color: #121212;
+}
+
+.iptracker {
+    color: white;
+}
+
+.iptracker section {
+    background: #1d1d1d;
+    width: 80%;
+    border-radius: 15px;
+    padding: 0.7%;
+}
+
+.iptracker section h1 {
+    font: normal 38.5pt Roboto, sans-serif;
+}
+
+.iptracker hr {
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: -20px;
+    color: #3b3c3f;
+    border-style: solid;
+
+}
+
+.text input {
+    margin-top: -2%;
+    font: normal 16pt Roboto, sans-serif;
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #444444;
+    background-color: #181818;
+}
+
+.text p {
+    font: normal 14pt Roboto, sans-serif;
+}
+
+.button input {
+    margin-top: 2%;
+    font: normal 16pt Roboto, sans-serif;
+    background: #181818;
+    border-style: solid;
+    color: white;
+    border-color: #444444;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+
+.button input:hover {
+    font: normal 16pt Roboto, sans-serif;
+    background: #2e2e2e;
+    color: white;
+    border-style: solid;
+    border-color: #8b8b8b;
+}
+
+.track p {
+    font: normal 13.5pt Roboto, sans-serif;
+    color: white;
+}

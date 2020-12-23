@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" type = "text/css" href = "css/iptracker.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel = "shortcut icon" type = "image/jpg" href = "assets/logo.jpg">
+        <title>IPTracker</title>
+    </head>
+
+    <body>
+        <div class = "iptracker">
+            <center>
+                <section>
+                    <h1>IP Tracker</h1>
+                        <div class = "text">
+                            <p>
+                                IP Address: <input type = "text" name = "ip" id = "ip">
+                            </p>
+                        </div>
+                    <div class = "button">
+                        <input type = "button" value = "Locate IP Address" onclick = "locate()">
+                        <hr>
+                    </div>
+                    <div class = "track">
+                        <p id = "iptracked"><strong>IP Number: </strong> </p>
+                        <p id = "continent"><strong>Continent: </strong></p>
+                        <p id = "country"><strong>Country: </strong></p>
+                        <p id = "state"><strong>Region: </strong></p>
+                        <p id = "city"><strong>City: </strong></p>
+                        <p id = "lat"><strong>Latitude: </strong></p>
+                        <p id = "lon"><strong>Longitude: </strong></p>
+                        <p id = "timezone"><strong>Timezone: </strong></p>
+                        <p id = "provider"><strong>Provider: </strong></p>
+                    </div>
+                </section>
+            </center>
+        </div>
+
+        <script src = "js/iptracker.js"></script>
+    </body>
+</html>

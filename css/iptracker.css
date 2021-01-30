@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-image: url("background.jpg");
 }
 
 .iptracker {
@@ -11,6 +11,7 @@ body {
     width: 80%;
     border-radius: 15px;
     padding: 0.7%;
+    opacity: 90%;
 }
 
 .iptracker section h1 {

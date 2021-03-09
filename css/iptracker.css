@@ -65,3 +65,11 @@ body {
     font: normal 13.5pt Roboto, sans-serif;
     color: white;
 }
+
+#foo {
+    font: normal 15pt Roboto, sans-serif; 
+    color: white;
+    padding-bottom: 1.8%;
+    width: 100%;
+    text-align: center;
+}

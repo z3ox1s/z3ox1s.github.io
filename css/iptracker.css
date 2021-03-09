@@ -69,9 +69,10 @@ body {
 }
 
 #foo {
-    font: normal 15pt Roboto, sans-serif; 
+    font: bold 15pt Roboto, sans-serif; 
     color: white;
-    padding-bottom: 1.8%;
+    padding-bottom: 0;
+    padding-top: 0.8%;
     width: 100%;
     text-align: center;
 }
